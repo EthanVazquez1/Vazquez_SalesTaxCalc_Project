@@ -139,7 +139,6 @@
             this.cboWarranty.Name = "cboWarranty";
             this.cboWarranty.Size = new System.Drawing.Size(151, 38);
             this.cboWarranty.TabIndex = 2;
-            this.cboWarranty.SelectedIndexChanged += new System.EventHandler(this.cboWarranty_SelectedIndexChanged);
             // 
             // txtBasePrice
             // 
@@ -155,9 +154,8 @@
             this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.Location = new System.Drawing.Point(211, 301);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(71, 31);
+            this.lblTotal.Size = new System.Drawing.Size(0, 31);
             this.lblTotal.TabIndex = 7;
-            this.lblTotal.Text = "Text";
             // 
             // MainForm
             // 
@@ -175,6 +173,7 @@
             this.Controls.Add(this.lblWarranty);
             this.Controls.Add(this.lblBasePrice);
             this.Controls.Add(this.lblTitle);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "MainForm";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.MainForm_Load);
