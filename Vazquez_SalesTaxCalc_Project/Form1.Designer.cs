@@ -45,9 +45,9 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(101, 9);
+            this.lblTitle.Location = new System.Drawing.Point(77, 45);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(604, 39);
+            this.lblTitle.Size = new System.Drawing.Size(487, 31);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Ethans Vehicle Sales Tax Calculator";
             // 
@@ -55,9 +55,9 @@
             // 
             this.lblBasePrice.AutoSize = true;
             this.lblBasePrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBasePrice.Location = new System.Drawing.Point(77, 109);
+            this.lblBasePrice.Location = new System.Drawing.Point(69, 109);
             this.lblBasePrice.Name = "lblBasePrice";
-            this.lblBasePrice.Size = new System.Drawing.Size(249, 31);
+            this.lblBasePrice.Size = new System.Drawing.Size(199, 25);
             this.lblBasePrice.TabIndex = 1;
             this.lblBasePrice.Text = "Vehicle Base Price:";
             // 
@@ -65,9 +65,9 @@
             // 
             this.lblWarranty.AutoSize = true;
             this.lblWarranty.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWarranty.Location = new System.Drawing.Point(74, 164);
+            this.lblWarranty.Location = new System.Drawing.Point(69, 161);
             this.lblWarranty.Name = "lblWarranty";
-            this.lblWarranty.Size = new System.Drawing.Size(253, 31);
+            this.lblWarranty.Size = new System.Drawing.Size(202, 25);
             this.lblWarranty.TabIndex = 2;
             this.lblWarranty.Text = "Extended Warranty:";
             // 
@@ -75,16 +75,16 @@
             // 
             this.lblState.AutoSize = true;
             this.lblState.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblState.Location = new System.Drawing.Point(147, 221);
+            this.lblState.Location = new System.Drawing.Point(151, 210);
             this.lblState.Name = "lblState";
-            this.lblState.Size = new System.Drawing.Size(147, 31);
+            this.lblState.Size = new System.Drawing.Size(117, 25);
             this.lblState.TabIndex = 3;
             this.lblState.Text = "State Sold:";
             // 
             // btnCalculate
             // 
             this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculate.Location = new System.Drawing.Point(503, 214);
+            this.btnCalculate.Location = new System.Drawing.Point(438, 210);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(139, 45);
             this.btnCalculate.TabIndex = 4;
@@ -95,7 +95,7 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(547, 357);
+            this.btnExit.Location = new System.Drawing.Point(482, 345);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(95, 58);
             this.btnExit.TabIndex = 6;
@@ -106,7 +106,7 @@
             // btnClear
             // 
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(389, 357);
+            this.btnClear.Location = new System.Drawing.Point(342, 345);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(95, 58);
             this.btnClear.TabIndex = 5;
@@ -121,9 +121,9 @@
             this.cboState.Items.AddRange(new object[] {
             "WA",
             "OR"});
-            this.cboState.Location = new System.Drawing.Point(333, 221);
+            this.cboState.Location = new System.Drawing.Point(286, 210);
             this.cboState.Name = "cboState";
-            this.cboState.Size = new System.Drawing.Size(86, 38);
+            this.cboState.Size = new System.Drawing.Size(75, 33);
             this.cboState.TabIndex = 3;
             // 
             // cboWarranty
@@ -135,33 +135,33 @@
             "One Year",
             "Two Year",
             "Three Year"});
-            this.cboWarranty.Location = new System.Drawing.Point(333, 161);
+            this.cboWarranty.Location = new System.Drawing.Point(286, 161);
             this.cboWarranty.Name = "cboWarranty";
-            this.cboWarranty.Size = new System.Drawing.Size(151, 38);
+            this.cboWarranty.Size = new System.Drawing.Size(151, 33);
             this.cboWarranty.TabIndex = 2;
             // 
             // txtBasePrice
             // 
             this.txtBasePrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBasePrice.Location = new System.Drawing.Point(332, 106);
+            this.txtBasePrice.Location = new System.Drawing.Point(286, 109);
             this.txtBasePrice.Name = "txtBasePrice";
-            this.txtBasePrice.Size = new System.Drawing.Size(151, 37);
+            this.txtBasePrice.Size = new System.Drawing.Size(151, 31);
             this.txtBasePrice.TabIndex = 1;
             // 
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(211, 301);
+            this.lblTotal.Location = new System.Drawing.Point(162, 287);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(0, 31);
+            this.lblTotal.Size = new System.Drawing.Size(0, 25);
             this.lblTotal.TabIndex = 7;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(634, 450);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.txtBasePrice);
             this.Controls.Add(this.cboWarranty);
